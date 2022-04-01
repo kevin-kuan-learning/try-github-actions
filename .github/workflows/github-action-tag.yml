@@ -1,8 +1,8 @@
-name: New Commit On main branch
+name: New Tag On main branch
 on:
   push:
-    branches:
-      - main
+    tags:
+      - rel.*
 jobs:
   Echo-Variables:
     runs-on: ubuntu-latest
